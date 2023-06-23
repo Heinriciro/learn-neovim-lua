@@ -249,13 +249,16 @@ packer.startup({
     -- Rust 增强
     use("simrat39/rust-tools.nvim")
     --------------------- colorschemes --------------------
+    -- monokai
+    use({ "tanvirtin/monokai.nvim" })
+
     -- tokyonight
-    use({
-      "folke/tokyonight.nvim",
-      config = function()
-        require("plugin-config.tokyonight")
-      end,
-    })
+    -- use({
+    --  "folke/tokyonight.nvim",
+    --  config = function()
+    --    require("plugin-config.tokyonight")
+    --  end,
+    -- })
 
     -- OceanicNext
     -- use({ "mhartington/oceanic-next", event = "VimEnter" })
