@@ -250,7 +250,12 @@ packer.startup({
     use("simrat39/rust-tools.nvim")
     --------------------- colorschemes --------------------
     -- monokai
-    use({ "tanvirtin/monokai.nvim" })
+    use({
+      "loctvl842/monokai-pro.nvim",
+      config = function()
+        require("plugin-config.monokai")
+      end,
+    })
 
     -- tokyonight
     -- use({

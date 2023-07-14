@@ -1,4 +1,4 @@
-local colorscheme = "monokai_pro"
+local colorscheme = "monokai-pro"
 -- tokyonight
 -- OceanicNext
 -- gruvbox
